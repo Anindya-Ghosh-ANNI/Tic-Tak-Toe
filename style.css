@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #CAF0F8;
+}
+
+header{
+    margin-top: 30px;
+}
+
+h1{
+    color: #03045e;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;   
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    background-color: #48CAE4;
+    color: #023e8a;
+    font-size: 30px;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    box-shadow: 0px 4px 12px rgba(0,0,0, 0.4);
+    transition: 0.3s ease;
+}
+
+.up-down-button{
+    background-color: #023E8A;
+    color: #90E0EF;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin: 50px;
+    border-radius: 5%;
+}
+
+.hide{
+    display: none;
+}
+
+#msg-win{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#msg-winner{
+    font-size: 30px;
+}
